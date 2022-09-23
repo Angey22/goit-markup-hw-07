@@ -81,6 +81,11 @@ body {
   letter-spacing: 0.03em;
 }
 
+/* Utility class for preventing scrolling when opening a modal window */
+.no-scroll {
+  overflow: hidden;
+}
+
 /* Website logo */
 .logo {
   /* Geometri */
