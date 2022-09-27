@@ -1,0 +1,29 @@
+// Utility class for resetting settings links &  adding an accent color on hover and focus of the corresponding links
+.link {
+    text-decoration: none;
+        &:hover, &:focus {
+        color: var(--accent-text-color);
+        }
+}
+
+// Utility class that hides the display of headings from the user, but remains they visible to search engines
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+// Geometri settings of the ".container" auxiliary class, intended for centering and limiting the content of site elements in width.
+.container {
+    // Geometry
+    max-width: 1200px;
+    padding: 94px 15px 94px 15px;
+    margin: 0 auto 0 auto;
+}
