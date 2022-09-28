@@ -80,12 +80,12 @@ body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
 }
-
+/* ---------------------- */
 /* Utility class for preventing scrolling when opening a modal window */
 .no-scroll {
   overflow: hidden;
 }
-
+/* ---------------------- */
 /* Website logo */
 .logo {
   /* Geometri */
@@ -219,7 +219,7 @@ body {
   display: inline-block;
   margin-left: 10px;
 }
-
+/* ------------------------------ */
 .contacts-foot,
 .contacts-map {
   /* Text */
@@ -236,7 +236,7 @@ body {
   /* Text */
   color: var(--complementary-text-color);
 }
-
+/* ------------------------------ */
 /* Підвал */
 .footer {
   /* Geometry */
@@ -292,7 +292,7 @@ body {
   text-transform: uppercase;
   color: var(--complementary-text-color);
 }
-
+/* ------------------------------ */
 .social-list-item:not(:last-child) {
   /* Geometry */
   margin-right: 10px;
@@ -409,7 +409,7 @@ body {
 .subscription-btn:hover {
   background-color: #188ce8;
 }
-
+/* ------------------------------ */
 /* Шапка - "Hero" */
 .hero {
   /* Geomeetry */
