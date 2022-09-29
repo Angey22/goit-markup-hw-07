@@ -1,6 +1,8 @@
 // Utility class for resetting settings links &  adding an accent color on hover and focus of the corresponding links
 .link {
     text-decoration: none;
+    
+        // Hover & Focus effects
         &:hover, &:focus {
         color: var(--accent-text-color);
         }

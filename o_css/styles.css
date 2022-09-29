@@ -80,12 +80,12 @@ body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 0.03em;
 }
-/* ---------------------- */
+
 /* Utility class for preventing scrolling when opening a modal window */
 .no-scroll {
   overflow: hidden;
 }
-/* ---------------------- */
+
 /* Website logo */
 .logo {
   /* Geometri */
@@ -650,7 +650,7 @@ intended for centering and limiting the content of site elements in width. */
   font-size: 16px;
   line-height: 1.2;
 }
-/* ------------------------------ */
+
 /* Постійні клієнти, section on page index.html */
 .client-list {
   /* Geometry */
@@ -789,6 +789,7 @@ intended for centering and limiting the content of site elements in width. */
   display: flex;
   flex-direction: column;
 }
+
 .form-label {
   /* Geometry */
   margin-bottom: 4px;
@@ -912,7 +913,7 @@ intended for centering and limiting the content of site elements in width. */
   border: 2px solid #212121;
   border-radius: 2px;
 }
-
+/* ------------------------------ */
 .checkbox-input:checked ~ .checkbox-icon {
   border: 2px solid var(--accent-text-color);
   background-color: var(--accent-text-color);
@@ -926,7 +927,7 @@ intended for centering and limiting the content of site elements in width. */
   outline: 3px solid #000;
   border-color: var(--accent-text-color);
 }
-
+/* ------------------------------ */
 .checkbox-text {
   display: block;
 }
@@ -962,7 +963,7 @@ intended for centering and limiting the content of site elements in width. */
 .form-btn:hover {
   background-color: #188ce8;
 }
-
+/* ------------------------------ */
 /* Наші роботи, section in 'main' on page portfolio.html */
 /* Settings of filter buttons */
 .portfolio-filter {
