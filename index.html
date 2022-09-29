@@ -12,7 +12,7 @@
 
 <body>
     
-    <!-- Верхня лінія - "Сайтбар" -->
+    <!-- Header -->
     <header class="header">
         <div class="container header__container">
             <nav class="page-nav">
@@ -52,65 +52,65 @@
     <!-- Основна частина головної сторінки сайту -->
     <main>
         
-        <!-- Шапка - "Hero" -->
+        <!-- Section - "Hero" -->
         <section class="hero">
-            <div class="container container-vert-padding-none">
-                <h1 class="hero-title">Ефективні рішення для<br>вашого бізнесу</h1>
-                <button class="herro-button" type="button" data-modal-open>Замовити послугу</button>
+            <div class="container hero__container">
+                <h1 class="hero__title">Ефективні рішення для<br>вашого бізнесу</h1>
+                <button class="herro__button" type="button" data-modal-open>Замовити послугу</button>
             </div>
         </section>
         
-        <!-- Особливості - "Peculiarities" -->
+        <!-- Section - "Peculiarities" -->
         <section>
-            <div class="container conteainer-peculiarities">
+            <div class="container peculiarities__conteainer">
             <h2 class="section-title visually-hidden">Особливості нашої робори</h2>
             <!-- Этот заголовок "спрятан", т.к. его нет в макете -->
-            <ul class="peculiarities-list list">
-                <li class="peculiarities-list-itm">
-                    <div class="peculiarities-list-decor">
+            <ul class="peculiarities-list">
+                <li class="peculiarities-list__item">
+                    <div class="peculiarities-list__decor">
                         <svg width="70px" height="70px">
                             <use href="./images/icons.svg#icon-antenna"></use>
                         </svg>
                     </div>
-                    <h3 class="peculiarities-list-title">Увага до деталей</h3>
-                    <p class="peculiarities-list-text">
+                    <h3 class="peculiarities-list__title">Увага до деталей</h3>
+                    <p class="peculiarities-list__text">
                         Ідейні міркування, і навіть початок повсякденної роботи з
                         формування позиції.
                     </p>
                 </li>
                 
-                <li class="peculiarities-list-itm">
-                    <div class="peculiarities-list-decor">
+                <li class="peculiarities-list__item">
+                    <div class="peculiarities-list__decor">
                         <svg width="70px" height="70px">
                             <use href="./images/icons.svg#icon-clock"></use>
                         </svg>
                     </div>
-                    <h3 class="peculiarities-list-title">Пунктуальність</h3>
-                    <p class="peculiarities-list-text">
+                    <h3 class="peculiarities-list__title">Пунктуальність</h3>
+                    <p class="peculiarities-list__text">
                         Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
                     </p>
                 </li>
                 
-                <li class="peculiarities-list-itm">
-                    <div class="peculiarities-list-decor">
+                <li class="peculiarities-list__item">
+                    <div class="peculiarities-list__decor">
                         <svg width="70px" height="70px">
                             <use href="./images/icons.svg#icon-diagram"></use>
                         </svg>
                     </div>
-                    <h3 class="peculiarities-list-title">Планування</h3>
-                    <p class="peculiarities-list-text">
+                    <h3 class="peculiarities-list__title">Планування</h3>
+                    <p class="peculiarities-list__text">
                         Так само консультація з широким активом значною мірою зумовлює.
                     </p>
                 </li>
                 
-                <li class="peculiarities-list-itm">
-                    <div class="peculiarities-list-decor">
+                <li class="peculiarities-list__item">
+                    <div class="peculiarities-list__decor">
                         <svg width="70px" height="70px">
                             <use href="./images/icons.svg#icon-astronaut"></use>
                         </svg>
                     </div>
-                    <h3 class="peculiarities-list-title">Сучасні технології</h3>
-                    <p class="peculiarities-list-text">
+                    <h3 class="peculiarities-list__title">Сучасні технології</h3>
+                    <p class="peculiarities-list__text">
                         Значимість цих проблем настільки очевидна, що реалізація планових завдань.
                     </p>
                 </li>
@@ -118,45 +118,45 @@
             </div>
         </section>
        
-        <!-- Чим ми займаємося -->
+        <!-- Section - "Work" -->
         <section>
-            <div class="work-container container">
+            <div class="container work__container">
             <h2 class="section-title">Чим ми займаємося</h2>
-            <ul class="work-list list">
-                <li class="work-list-itm">
+            <ul class="work-list">
+                <li class="work-list__itm">
                     <img src="./images/what_we_do-1_o.jpg" alt="Складаємо алгоритми та пишимо код сайтів" width="370" />
-                    <div class="work-list-label">
-                        <h3 class="work-list-label-litle">Десктопні додатки</h3>
+                    <div class="work-list__label">
+                        <h3 class="work-list__title">Десктопні додатки</h3>
                     </div>
                 </li>
                 
-                <li class="work-list-itm">
+                <li class="work-list__itm">
                     <img src="./images/what_we_do-2_o.jpg" alt="Адаптуємо відображення сайтів" width="370" />
-                    <div class="work-list-label">
-                        <h3 class="work-list-label-litle">Мобільні додатки</h3>
+                    <div class="work-list__label">
+                        <h3 class="work-list__title">Мобільні додатки</h3>
                     </div>
                 </li>
                 
-                <li class="work-list-itm">
+                <li class="work-list__itm">
                     <img src="./images/what_we_do-3_o.jpg" alt="Оптимізуємо кольорове відображення дизайну сайтів"
                         width="370" />
-                    <div class="work-list-label">
-                        <h3 class="work-list-label-litle">Дизайнерські рішення</h3>
+                    <div class="work-list__label">
+                        <h3 class="work-list__title">Дизайнерські рішення</h3>
                     </div>
                 </li>
             </ul>
             </div>
         </section>
         
-        <!-- Section 'Our Team' -->
-        <section class="section-highlighted">
+        <!-- Section "Our Team" -->
+        <section class="section--highlighted">
             <div class="container">
             <h2 class="section-title">Наша команда</h2>
-            <ul class="team-list list">
-                <li class="team-list-item">
-                    <img class="team-list-img" src="./images/photo_ihor_demyanenko_o.jpg" alt="Світлина Ігоря Демя'ненко" width="270" />
-                    <h3 class="team-name">Ігор Дем'яненко</h3>
-                    <p class="team-position" lang="en">Product Designer</p>
+            <ul class="team-list">
+                <li class="team-list__item">
+                    <img class="team-list__img" src="./images/photo_ihor_demyanenko_o.jpg" alt="Світлина Ігоря Демя'ненко" width="270" />
+                    <h3 class="team-list__name">Ігор Дем'яненко</h3>
+                    <p class="team-list__position" lang="en">Product Designer</p>
                     <ul class="social-list">
                         <li class="social-list__item">
                             <a class="social-list__link social-list__link--team" href="http://www.instagram.com/" target="_blank" title="Instagram"
@@ -196,10 +196,10 @@
                     </ul>
                 </li>
                 
-                <li class="team-list-item">
-                    <img class="team-list-img" src="./images/photo_olga_repina_o.jpg" alt="Світлина Ольги Рєпіної" width="270" />
-                    <h3 class="team-name">Ольга Рєпіна</h3>
-                    <p class="team-position" lang="en">Frontend Developer</p>
+                <li class="team-list__item">
+                    <img class="team-list__img" src="./images/photo_olga_repina_o.jpg" alt="Світлина Ольги Рєпіної" width="270" />
+                    <h3 class="team-list__name">Ольга Рєпіна</h3>
+                    <p class="team-list__position" lang="en">Frontend Developer</p>
                     <ul class="social-list list">
                         <li class="social-list__item">
                             <a class="social-list__link social-list__link--team" href="http://www.instagram.com/" target="_blank" title="Instagram"
@@ -239,10 +239,10 @@
                     </ul>
                 </li>
                 
-                <li class="team-list-item">
-                    <img class="team-list-img" src="./images/photo_mykola_tarasov_o.jpg" alt="Світлина Миколи Тарасова" width="270" />
-                    <h3 class="team-name">Микола Тарасов</h3>
-                    <p class="team-position" lang="en">Marketing</p>
+                <li class="team-list__item">
+                    <img class="team-list__img" src="./images/photo_mykola_tarasov_o.jpg" alt="Світлина Миколи Тарасова" width="270" />
+                    <h3 class="team-list__name">Микола Тарасов</h3>
+                    <p class="team-list__position" lang="en">Marketing</p>
                     <ul class="social-list list">
                         <li class="social-list__item">
                             <a class="social-list__link social-list__link--team" href="http://www.instagram.com/" target="_blank" title="Instagram"
@@ -282,10 +282,10 @@
                     </ul>
                 </li>
                 
-                <li class="team-list-item">
-                    <img class="team-list-img" src="./images/photo_mykhailo_yermakov_o.jpg" alt="Світлина Михайла Єрмакова" width="270" />
-                    <h3 class="team-name">Михайло Єрмаков</h3>
-                    <p class="team-position" lang="en">UI Designer</p>
+                <li class="team-list__item">
+                    <img class="team-list__img" src="./images/photo_mykhailo_yermakov_o.jpg" alt="Світлина Михайла Єрмакова" width="270" />
+                    <h3 class="team-list__name">Михайло Єрмаков</h3>
+                    <p class="team-list__position" lang="en">UI Designer</p>
                     <ul class="social-list list">
                         <li class="social-list__item">
                             <a class="social-list__link social-list__link--team" href="http://www.instagram.com/" target="_blank" title="Instagram"
@@ -328,53 +328,53 @@
             </div>
         </section>
 
-        <!-- Постійні клієнти -->
+        <!-- Section "Regular Clients" -->
         <section>
             <div class="container">
                 <h2 class="section-title">Постійні клієнти</h2>
-                <ul class="client-list list">
-                    <li class="client-list-item">
-                        <a class="client-list-link link" href="#" title="YA & CO" rel="noreferrer noopener nofollow">
+                <ul class="client-list">
+                    <li class="client-list__item">
+                        <a class="client-list__link link" href="#" title="YA & CO" rel="noreferrer noopener nofollow">
                             <svg width="106px" height="60px">
                                 <use href="./images/icons.svg#icon-client_logo_1"></use>
                             </svg>
                         </a>
                     </li>
 
-                    <li class="client-list-item">
-                        <a class="client-list-link link" href="#" title="Tagline here Company" rel="noreferrer noopener nofollow">
+                    <li class="client-list__item">
+                        <a class="client-list__link link" href="#" title="Tagline here Company" rel="noreferrer noopener nofollow">
                             <svg width="106px" height="60px">
                                 <use href="./images/icons.svg#icon-client_logo_2"></use>
                             </svg>
                         </a>
                     </li>
 
-                    <li class="client-list-item">
-                        <a class="client-list-link link" href="#" title="COMPANY" rel="noreferrer noopener nofollow">
+                    <li class="client-list__item">
+                        <a class="client-list__link link" href="#" title="COMPANY" rel="noreferrer noopener nofollow">
                             <svg width="106px" height="60px">
                                 <use href="./images/icons.svg#icon-client_logo_3"></use>
                             </svg>
                         </a>
                     </li>
 
-                    <li class="client-list-item">
-                        <a class="client-list-link link" href="#" title="FOSTER PETERS" rel="noreferrer noopener nofollow">
+                    <li class="client-list__item">
+                        <a class="client-list__link link" href="#" title="FOSTER PETERS" rel="noreferrer noopener nofollow">
                             <svg width="106px" height="60px">
                                 <use href="./images/icons.svg#icon-client_logo_4"></use>
                             </svg>
                         </a>
                     </li>
 
-                    <li class="client-list-item">
-                        <a class="client-list-link link" href="#" title="BRAND" rel="noreferrer noopener nofollow">
+                    <li class="client-list__item">
+                        <a class="client-list__link link" href="#" title="BRAND" rel="noreferrer noopener nofollow">
                             <svg width="106px" height="60px">
                                 <use href="./images/icons.svg#icon-client_logo_5"></use>
                             </svg>
                         </a>
                     </li>
 
-                    <li class="client-list-item">
-                        <a class="client-list-link link" href="#" title="TAG LINE Company" rel="noreferrer noopener nofollow">
+                    <li class="client-list__item">
+                        <a class="client-list__link link" href="#" title="TAG LINE Company" rel="noreferrer noopener nofollow">
                             <svg width="106px" height="60px">
                                 <use href="./images/icons.svg#icon-client_logo_6"></use>
                             </svg>
@@ -467,7 +467,7 @@
         </div>
     </footer>
 
-    <!-- Markup modal window -->
+    <!-- Modal window -->
     <div class="backdrop is-hidden" data-modal>
         <div class="modal-window"> 
             <button  class="modal-window-close-btn link" data-modal-close>

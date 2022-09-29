@@ -409,7 +409,7 @@ body {
 .subscription-btn:hover {
   background-color: #188ce8;
 }
-/* ------------------------------ */
+
 /* Шапка - "Hero" */
 .hero {
   /* Geomeetry */
@@ -650,7 +650,7 @@ intended for centering and limiting the content of site elements in width. */
   font-size: 16px;
   line-height: 1.2;
 }
-
+/* ------------------------------ */
 /* Постійні клієнти, section on page index.html */
 .client-list {
   /* Geometry */
