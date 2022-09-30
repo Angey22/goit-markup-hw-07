@@ -13,7 +13,7 @@
 
 <body>
     
-<!-- Верхня лінія - "Сайтбар" -->
+<!-- Header -->
 <header class="header">
     <div class="container header__container">
         <nav class="page-nav">
@@ -50,202 +50,202 @@
     </div>
 </header>
 
-<!-- Основна частина сторінки "Портфоліо" -->
+<!-- Main part of the "portfolio.html" page -->
 <main>
     <section>
         <div class="container">
         <h1 class="visually-hidden">Наші роботи</h1> <!-- Этот заголовок спрятан, т.к. его нет в макете -->
         
             <!-- Gallery button filter -->
-            <ul class="portfolio-filter list">
-                <li class="portfolio-filter-itm">
-                    <button class="portfolio-filter-button first-portfolio-filter-button" type="button">Усі</button>
+            <ul class="filter-list">
+                <li class="filter-list__item">
+                    <button class="filter-list__btn filter-list__btn--broader" type="button">Усі</button>
                 </li>
                 
-                <li class="portfolio-filter-itm">
-                    <button class="portfolio-filter-button" type="button">Веб-сайти</button>
+                <li class="filter-list__item">
+                    <button class="filter-list__btn" type="button">Веб-сайти</button>
                 </li>
                
-                <li class="portfolio-filter-itm">
-                    <button class="portfolio-filter-button" type="button">Додатки</button>
+                <li class="filter-list__item">
+                    <button class="filter-list__btn" type="button">Додатки</button>
                 </li>
                 
-                <li class="portfolio-filter-itm">
-                    <button class="portfolio-filter-button" type="button">Дизайн</button>
+                <li class="filter-list__item">
+                    <button class="filter-list__btn" type="button">Дизайн</button>
                 </li>
                 
-                <li class="portfolio-filter-itm">
-                    <button class="portfolio-filter-button" type="button">Маркетинг</button>
+                <li class="filter-list__item">
+                    <button class="filter-list__btn" type="button">Маркетинг</button>
                 </li>
             </ul>
             
             <!-- Card gallery -->
-            <ul class="portfolio list">
-                <li class="portfolio-itm">
-                    <a class="portfolio-link" href="#">
+            <ul class="portfolio-list">
+                <li class="portfolio-list__item">
+                    <a class="portfolio-list__link" href="#">
                         <article class="portfolio-card">
-                            <div class="portfolio-card-tumb">
+                            <div class="portfolio-card__tumb">
                                 <img src="./images/technocrack_o.jpg" alt="Світлини трьох людей, які мають власний погляд на Web-індустрію" width="370">
-                                <div class="portfolio-card-overlay">
-                                    <p class="portfolio-card-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати 
+                                <div class="portfolio-card__overlay">
+                                    <p class="portfolio-card__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати 
                                     вичерпні відомості про компанію чи приватну особу.</p>
                                 </div>
                             </div>
-                            <div class="portfolio-card-content">
-                                <h2 class="portfolio-card-title">Технокряк</h2>
-                                <p class="portfolio-card-text">Веб-сайт</p>
+                            <div class="portfolio-card__content">
+                                <h2 class="portfolio-card__title">Технокряк</h2>
+                                <p class="portfolio-card__text">Веб-сайт</p>
                             </div>
                         </article>    
                     </a>
                 </li>
                 
-                <li class="portfolio-itm">
-                    <a class="portfolio-link" href="#">
+                <li class="portfolio-list__item">
+                    <a class="portfolio-list__link" href="#">
                         <article class="portfolio-card">
-                            <div class="portfolio-card-tumb">
+                            <div class="portfolio-card__tumb">
                                 <img src="./images/poster_new-orlean_vs_golden-star_o.jpg" alt="Двоє баскетболістів борються за м'яч" width="370">
-                                <div class="portfolio-card-overlay">
-                                    <p class="portfolio-card-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                                <div class="portfolio-card__overlay">
+                                    <p class="portfolio-card__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                                     сервісів. Все це дозволить відвідувачу отримати
                                     вичерпні відомості про компанію чи приватну особу.</p>
                                 </div>
                             </div>
-                            <div class="portfolio-card-content">
-                                <h2 class="portfolio-card-title">Постер New Orlean vs Golden Star</h2>
-                                <p class="portfolio-card-text">Дизайн</p>
+                            <div class="portfolio-card__content">
+                                <h2 class="portfolio-card__title">Постер New Orlean vs Golden Star</h2>
+                                <p class="portfolio-card__text">Дизайн</p>
                             </div>
                         </article>
                     </a>
                 </li>
                 
-                <li class="portfolio-itm">
-                    <a class="portfolio-link" href="#">
+                <li class="portfolio-list__item">
+                    <a class="portfolio-list__link" href="#">
                         <article class="portfolio-card">
-                            <div class="portfolio-card-tumb">
+                            <div class="portfolio-card__tumb">
                                 <img src="./images/restaurant_seafood_o.jpg" alt="Назва ресторану 'Seafood' на фоні малюнка риби" width="370">
-                                <div class="portfolio-card-overlay">
-                                    <p class="portfolio-card-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                                <div class="portfolio-card__overlay">
+                                    <p class="portfolio-card__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                                     сервісів. Все це дозволить відвідувачу отримати
                                     вичерпні відомості про компанію чи приватну особу.</p>
                                 </div>
                             </div>
-                            <div class="portfolio-card-content">
-                                <h2 class="portfolio-card-title">Ресторан Seafood</h2>
-                                <p class="portfolio-card-text">Додаток</p>
+                            <div class="portfolio-card__content">
+                                <h2 class="portfolio-card__title">Ресторан Seafood</h2>
+                                <p class="portfolio-card__text">Додаток</p>
                             </div>
                         </article>
                     </a>
                 </li>
                 
-                <li class="portfolio-itm">
-                    <a class="portfolio-link" href="#">
+                <li class="portfolio-list__item">
+                    <a class="portfolio-list__link" href="#">
                         <article class="portfolio-card">
-                            <div class="portfolio-card-tumb">
+                            <div class="portfolio-card__tumb">
                                 <img src="./images/project_prime_o.jpg" alt="Акустичні навушники" width="370">
-                                <div class="portfolio-card-overlay">
-                                    <p class="portfolio-card-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                                <div class="portfolio-card__overlay">
+                                    <p class="portfolio-card__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                                     сервісів. Все це дозволить відвідувачу отримати
                                     вичерпні відомості про компанію чи приватну особу.</p>
                                 </div>
                             </div>
-                            <div class="portfolio-card-content">
-                                <h2 class="portfolio-card-title">Проєкт Prime</h2>
-                                <p class="portfolio-card-text">Маркетинг</p>
+                            <div class="portfolio-card__content">
+                                <h2 class="portfolio-card__title">Проєкт Prime</h2>
+                                <p class="portfolio-card__text">Маркетинг</p>
                             </div>
                         </article>
                     </a>
                 </li>
                 
-                <li class="portfolio-itm">
-                    <a class="portfolio-link" href="#">
+                <li class="portfolio-list__item">
+                    <a class="portfolio-list__link" href="#">
                         <article class="portfolio-card">
-                            <div class="portfolio-card-tumb">
+                            <div class="portfolio-card__tumb">
                                 <img src="./images/project_boxes_o.jpg" alt="Декілька картоних коробок" width="370">
-                                <div class="portfolio-card-overlay">
-                                    <p class="portfolio-card-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                                <div class="portfolio-card__overlay">
+                                    <p class="portfolio-card__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                                     сервісів. Все це дозволить відвідувачу отримати
                                     вичерпні відомості про компанію чи приватну особу.</p>
                                 </div>
                             </div>
-                            <div class="portfolio-card-content">
-                                <h2 class="portfolio-card-title">Проєкт Boxes</h2>
-                                <p class="portfolio-card-text">Додаток</p>
+                            <div class="portfolio-card__content">
+                                <h2 class="portfolio-card__title">Проєкт Boxes</h2>
+                                <p class="portfolio-card__text">Додаток</p>
                             </div>
                         </article>
                     </a>
                 </li>
                 
-                <li class="portfolio-itm">
-                    <a class="portfolio-link" href="#">
+                <li class="portfolio-list__item">
+                    <a class="portfolio-list__link" href="#">
                         <article class="portfolio-card">
-                            <div class="portfolio-card-tumb">
+                            <div class="portfolio-card__tumb">
                                 <img src="./images/inspiration_has_no_borders_o.jpg" alt="Мапа нашої планети разом з написом 'Inspiration has no Borders'" width="370">
-                                <div class="portfolio-card-overlay">
-                                    <p class="portfolio-card-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                                <div class="portfolio-card__overlay">
+                                    <p class="portfolio-card__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                                     сервісів. Все це дозволить відвідувачу отримати
                                     вичерпні відомості про компанію чи приватну особу.</p>
                                 </div>
                             </div>
-                            <div class="portfolio-card-content">
-                                <h2 class="portfolio-card-title">Inspiration has no Borders</h2>
-                                <p class="portfolio-card-text">Веб-сайт</p>
+                            <div class="portfolio-card__content">
+                                <h2 class="portfolio-card__title">Inspiration has no Borders</h2>
+                                <p class="portfolio-card__text">Веб-сайт</p>
                             </div>
                         </article>
                     </a>
                 </li>
                 
-                <li class="portfolio-itm">
-                    <a class="portfolio-link" href="#">
+                <li class="portfolio-list__item">
+                    <a class="portfolio-list__link" href="#">
                         <article class="portfolio-card">
-                            <div class="portfolio-card-tumb">
+                            <div class="portfolio-card__tumb">
                                 <img src="./images/edition_limited_edition_o.jpg" alt="Розгорнута книга на розвороті котрої наведено напис - 'I'am Limited Edition'" width="370">
-                                <div class="portfolio-card-overlay">
-                                    <p class="portfolio-card-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                                <div class="portfolio-card__overlay">
+                                    <p class="portfolio-card__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                                     сервісів. Все це дозволить відвідувачу отримати
                                     вичерпні відомості про компанію чи приватну особу.</p>
                                 </div>
                             </div>
-                            <div class="portfolio-card-content">
-                                <h2 class="portfolio-card-title">Видання Limited Edition</h2>
-                                <p class="portfolio-card-text">Дизайн</p>
+                            <div class="portfolio-card__content">
+                                <h2 class="portfolio-card__title">Видання Limited Edition</h2>
+                                <p class="portfolio-card__text">Дизайн</p>
                             </div>
                         </article>
                     </a>
                 </li>
                 
-                <li class="portfolio-itm">
-                    <a class="portfolio-link" href="#">
+                <li class="portfolio-list__item">
+                    <a class="portfolio-list__link" href="#">
                         <article class="portfolio-card">
-                            <div class="portfolio-card-tumb">
+                            <div class="portfolio-card__tumb">
                                 <img src="./images/project_lab_o.jpg" alt="Бірка з написом 'LAB EL TAG'" width="370">
-                                <div class="portfolio-card-overlay">
-                                    <p class="portfolio-card-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                                <div class="portfolio-card__overlay">
+                                    <p class="portfolio-card__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                                     сервісів. Все це дозволить відвідувачу отримати
                                     вичерпні відомості про компанію чи приватну особу.</p>
                                 </div>
                             </div>
-                            <div class="portfolio-card-content">
-                                <h2 class="portfolio-card-title">Проєкт LAB</h2>
-                                <p class="portfolio-card-text">Маркетинг</p>
+                            <div class="portfolio-card__content">
+                                <h2 class="portfolio-card__title">Проєкт LAB</h2>
+                                <p class="portfolio-card__text">Маркетинг</p>
                             </div>
                         </article>
                     </a>
                 </li>
                 
-                <li class="portfolio-itm">
-                    <a class="portfolio-link" href="#">
+                <li class="portfolio-list__item">
+                    <a class="portfolio-list__link" href="#">
                         <article class="portfolio-card">
-                            <div class="portfolio-card-tumb">
+                            <div class="portfolio-card__tumb">
                                 <img src="./images/growing_business_o.jpg" alt="Руки людини натискають на клавіші ноутбука, на екрані котрого відображено напис - 'Growing Business'" width="370">
-                                <div class="portfolio-card-overlay">
-                                    <p class="portfolio-card-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
+                                <div class="portfolio-card__overlay">
+                                    <p class="portfolio-card__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                                     сервісів. Все це дозволить відвідувачу отримати
                                     вичерпні відомості про компанію чи приватну особу.</p>
                                 </div>
                             </div>
-                            <div class="portfolio-card-content">
-                                <h2 class="portfolio-card-title">Growing Business</h2>
-                                <p class="portfolio-card-text">Додаток</p>
+                            <div class="portfolio-card__content">
+                                <h2 class="portfolio-card__title">Growing Business</h2>
+                                <p class="portfolio-card__text">Додаток</p>
                             </div>
                     </article>
                 </a>
